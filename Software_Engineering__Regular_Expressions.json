@@ -1,0 +1,823 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "3f76ee28-7ce7-11e6-9a05-8c705a50cbf0", 
+    "deck_config_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/'>shared deck page</a> for more info.", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": "1467568254113", 
+    "name": "Software Engineering::Regular Expressions", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "css": ".card {\n font-familiy: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic [reversed, extra, source]", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        1
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "asana", 
+                "keyboard", 
+                "shortcuts"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n<br>\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Front first", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}\n\n<br>\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bfont": "Arial", 
+                    "bqfmt": "", 
+                    "bsize": 12, 
+                    "did": null, 
+                    "name": "Back first", 
+                    "ord": 1, 
+                    "qfmt": "{{Back}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match regular expression re1 or re2", 
+                "<i>re1</i>|<i>re2</i><br /><br />e.g. \"foo|bar\"", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Qis;Rp=j$j", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match 0 or more occurrences of preceding RE", 
+                "*<br /><div>e.g. \"[A-Za-Z0-9]*</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "fQ[EbMDrdL", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match 1 or more occurrences of preceding RE&nbsp;", 
+                "+<br /><div>e.g. \"[a-z]+\\.com\"</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "iD)Nuet2~*", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match 0 or 1 occurence of preceding RE", 
+                "? or {0,1}<br /><div>e.g. \"goo?\"</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "uCC1.[9m4E", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match <i>N</i>&nbsp;occurences of preceding RE", 
+                "{<i>N</i>}<div>e.g. \"[0-9]{3}\"</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "g:n`Q5WQ!I", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match from <i>M </i>to <i>&nbsp;N occurrences of preceding RE</i>", 
+                "{<i>M, N</i>}<br />e.g. \"[0-9]{5,9}\"", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Q1+Is3o-n*", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match any single character from defined&nbsp;character class", 
+                "[. . .]<br />e.g. \"[aeiou]\"", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d1vNJA&5<j", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match any single character in the range from <i>x</i> to <i>y</i>", 
+                "[. . <i>x-y</i>. .]<br /><br />e.g. \"[0-9]\" or \"[a-f]\" etc.<br />", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "HVctgBEZub", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Do not match any character from defined character class, including any ranges if present.", 
+                "[^. . . ]<div><span style=\" font-style: normal; font-weight: normal;\"><br />e.g. \"[^aeiou]\", \"[^L-Z]\"</span></div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "pIht.$7A3X", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Modifies the *, +, ? or {M,N}'d regex that comes before to match as few characters as possible. (non-greedy version)", 
+                "( * | + | ? | { } )?<br><div><br></div><div>e.g. \".*?[a-z]</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "nyn&#gnc~g", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match any decimal digit ([0-9]), and inverse", 
+                "\\d<br />\\D (Do not match any)<br /><div><br /></div><div>e.g. \"data\\d+.txt\"</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "dcm1&=>@r=", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match any alphanumeric character, &nbsp;same as [ A-Za-z0-9_]", 
+                "\\w<div>\\W (inverse)</div><div><div><br /></div><div>e.g. \"[A-Za-z_]\\w+\"</div></div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "dN*Y$eXK7J", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match any whitespace character, same as [ \\n \\t \\r \\v \\f ]", 
+                "\\s<div>\\S (inverse)</div><div><br />e.g. \"of\\sthe\"</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "qgfUrn`&A~", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match any word boundary (boundary between a word and a non-word character)", 
+                "\\b<br />\\B (inverse)<div><br /></div><div>e.g. \"\\bThe\\b\"</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "K.5wW)bS>L", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match enclosed RE and save as subgroup", 
+                "(. . .)<div><br /></div><div><span style=\" font-style: normal; font-weight: normal;\">e.g. \"([0-9]{3})?\",<br />&nbsp;&nbsp; &nbsp; &nbsp; \"f(oo|u)bar\"</span></div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "iT[/&WB6J3", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match saved subgroup <i>nn</i>&nbsp;(see (. . . ))", 
+                "\\<i>nn<br /><br /></i><div>e.g. \"price: \\16\"</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "s7HmFy4iky", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Match any special character <i>c</i>, literally<i>,&nbsp;</i>without it's meaning", 
+                "\\<i>c</i><div><br /></div><div>e.g. \"\\.\", \"\\\\\", \"\\*\"</div>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "GlhkErB5t.", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "any character (except a newline) 0 or more times. e.g a, abCD, 1234", 
+                ".*", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "casHON^:.x", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "at least one of anything (except a new line) and not empty strings", 
+                ".+", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "l1Vv)Vf0Js", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "exactly two of any character (except newline). e.g aa, Ab, 23", 
+                ".{2}", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "mF]}AU/gT!", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "one to three of any character (except newline). e.g 9, Abc", 
+                ".{1,3}", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "b(GpyIW]vX", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Anchor to match beginning of line or string.&nbsp;", 
+                "^foo", 
+                "matches 'foo' and 'foo bar' but not 'bar foo'", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yY~0}6lC+e", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Anchor to match end of the line or string.", 
+                "foo$", 
+                "matches 'foo' and 'bar foo' but not 'foo bar'", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "H{:d[9dMzC", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "matches a series (1+) of digits. e.g. 123456", 
+                "[0-9]+ or \\d+", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d][<$B?,DH", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "matches something (or nothing) in double quotes; literally \"any character except and double quote zero or more times inside double quotes\" e.g \"foo\", \"foo bar\" or \"\".", 
+                "\"[^\\\"]*\"", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c4vfTuMO]j", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "how to make the previous character optional.&nbsp;", 
+                "?&nbsp;", 
+                "e.g. /an?/ matches a and an but not n", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "y+hgH?_p/l", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "a logical OR", 
+                "|&nbsp;", 
+                "e.g. /I'm|I am/ matches I'm and I am", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d+U838>~b$", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Puts patterns into a group. Captured values can be reused later.", 
+                "(pattern)", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "x%@@y{38tA", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "a non-capturing group", 
+                "(?:pattern)&nbsp;", 
+                "e.g. /I (?:eat|ate)/ matches \"I eat\" and \"I ate\" but does not capture \"eat\" or \"ate\" for use later.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ru,g{kKg(G", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "a single character of a,b,c", 
+                "[abc]", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "Cm@P#Hn5UB", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "any word (alphanumeric) character or non word character<div>a word character is a letter, number or underscore ([A-Za-z0-9_])</div>", 
+                "\\w and \\W&nbsp;", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "jC#+6I{Es#", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "matches any single character (letter, digit, whitespace, etc), except the newline character", 
+                ".", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wo>5vg;b]H", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\", 
+                "escape metacharacters<br />", 
+                "for example, \\. matches a single period", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "dLQ5.ZCbdY", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "[^abc]", 
+                "matches any single character except a,b, or c<br>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "e]dPw]r,>~", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "[0-6]<em></em>", 
+                "matches any single digit from zero to six<br>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ld*DVUMk)G", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "[^n-p]", 
+                "matches any single letter except the ones between n and p (inclusive)<br />", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "bRiO$W%v.O", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "[wxy]{5}", 
+                "five characters, each of which can be a w, x, or y", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "O>=5bq3bfv", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\d*", 
+                "matches any number of digits<br>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "xV]|?o^E{J", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Mark b is optional in RE. Matches \"abc\" or \"ac\"", 
+                "ab?c", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "szSobe0;y}", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "^success", 
+                "matches a line beginning with the \"success\".&nbsp;<br />", 
+                "^ has a different meaning inside sqare brackets. There it used to mark that the characters it preceeds are excluded.", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "A=^:C$~ZTz", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "^(.+)\\.pdf$", 
+                "Captures the name of a pdf file (excluding the extension).<br>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "yo?b={>o=/", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "(\\w+\\s(\\d+))", 
+                "Captures 2 groups. First group is a word followed by a space then a group of digits (1+), and the second group is the digits by themselves.<br />", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "t8;IlRk~=F", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "(\\d+)x(\\d+)", 
+                "Catches two groups of digits separated by an x (like width and height in 1020x480)<br>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "c<RCZJ.KMj", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "(cats|dogs)", 
+                "catches cats or dogs<br>", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "F@%TOdxzKp", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "\\w+\\b<br>", 
+                "matches an entire word. Literally: 1 or more word characters followed by \"word boundary\"<br />", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "d,3XB/#z}$", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Matches the beginning of a string (but not an internal line).", 
+                "\\A", 
+                "<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\">    <span style=\"color: #000000\">$string1</span> <span style=\"color: #ce5c00; font-weight: bold\">=</span> <span style=\"color: #4e9a06\">\"Hello\\nWorld\\n\"</span><span style=\"color: #000000; font-weight: bold\">;</span>\n    <span style=\"color: #204a87; font-weight: bold\">if</span> <span style=\"color: #000000; font-weight: bold\">(</span><span style=\"color: #000000\">$string1</span> <span style=\"color: #ce5c00; font-weight: bold\">=~</span> <span style=\"color: #4e9a06\">m/\\AH/</span><span style=\"color: #000000; font-weight: bold\">)</span> <span style=\"color: #000000; font-weight: bold\">{</span>\n      <span style=\"color: #204a87; font-weight: bold\">print</span> <span style=\"color: #4e9a06\">\"$string1 is a string \"</span><span style=\"color: #000000; font-weight: bold\">;</span>\n      <span style=\"color: #204a87; font-weight: bold\">print</span> <span style=\"color: #4e9a06\">\"that starts with 'H'.\\n\"</span><span style=\"color: #000000; font-weight: bold\">;</span>\n    <span style=\"color: #000000; font-weight: bold\">}</span>\n</pre></div>\n<p>Output:</p>\n<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\">Hello  \nWorld  \nis a string that starts with 'H'.\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0NjgxNTQ2OTUsICJpZCI6ICIxNDY4MTU0NDMxMzYzLTAwMiIsICJtZCI6ICJgYGBwZXJsXG4gICAgJHN0cmluZzEgPSAmcXVvdDtIZWxsb1xcbldvcmxkXFxuJnF1b3Q7O1xuICAgIGlmICgkc3RyaW5nMSA9fiBtL1xcQUgvKSB7XG4gICAgICBwcmludCAmcXVvdDskc3RyaW5nMSBpcyBhIHN0cmluZyAmcXVvdDs7XG4gICAgICBwcmludCAmcXVvdDt0aGF0IHN0YXJ0cyB3aXRoICZhcG9zO0gmYXBvczsuXFxuJnF1b3Q7O1xuICAgIH1cbmBgYFxuICBcbk91dHB1dDpcbmBgYFxuSGVsbG8gIFxuV29ybGQgIFxuaXMgYSBzdHJpbmcgdGhhdCBzdGFydHMgd2l0aCAmYXBvcztIJmFwb3M7LlxuYGBgXG4ifQ==---->", 
+                "https://en.wikipedia.org/wiki/Regular_expression"
+            ], 
+            "flags": 0, 
+            "guid": "QPfH=BVQ|C", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "line", 
+                "regex", 
+                "string"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Matches the end of a string (but not an internal line).", 
+                "\\z", 
+                "<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #000000\">$string1</span> <span style=\"color: #ce5c00; font-weight: bold\">=</span> <span style=\"color: #4e9a06\">\"Hello\\nWorld\\n\"</span><span style=\"color: #000000; font-weight: bold\">;</span>\n<span style=\"color: #204a87; font-weight: bold\">if</span> <span style=\"color: #000000; font-weight: bold\">(</span><span style=\"color: #000000\">$string1</span> <span style=\"color: #ce5c00; font-weight: bold\">=~</span> <span style=\"color: #4e9a06\">m/d\\n\\z/</span><span style=\"color: #000000; font-weight: bold\">)</span> <span style=\"color: #000000; font-weight: bold\">{</span>\n  <span style=\"color: #204a87; font-weight: bold\">print</span> <span style=\"color: #4e9a06\">\"$string1 is a string \"</span><span style=\"color: #000000; font-weight: bold\">;</span>\n  <span style=\"color: #204a87; font-weight: bold\">print</span> <span style=\"color: #4e9a06\">\"that ends with 'd\\\\n'.\\n\"</span><span style=\"color: #000000; font-weight: bold\">;</span>\n<span style=\"color: #000000; font-weight: bold\">}</span>\n</pre></div>\n<p>Output:</p>\n<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\">Hello\nWorld\n is a string that ends with 'd\\n'.\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE0NjgxNTQ2NzEsICJpZCI6ICIxNDY4MTU0NjIzOTM5LTAwMiIsICJtZCI6ICJgYGBwZXJsXG4kc3RyaW5nMSA9ICZxdW90O0hlbGxvXFxuV29ybGRcXG4mcXVvdDs7XG5pZiAoJHN0cmluZzEgPX4gbS9kXFxuXFx6Lykge1xuICBwcmludCAmcXVvdDskc3RyaW5nMSBpcyBhIHN0cmluZyAmcXVvdDs7XG4gIHByaW50ICZxdW90O3RoYXQgZW5kcyB3aXRoICZhcG9zO2RcXFxcbiZhcG9zOy5cXG4mcXVvdDs7XG59XG5gYGBcbk91dHB1dDpcbmBgYFxuSGVsbG9cbldvcmxkXG4gaXMgYSBzdHJpbmcgdGhhdCBlbmRzIHdpdGggJmFwb3M7ZFxcbiZhcG9zOy5cbmBgYFxuIn0=---->", 
+                "https://en.wikipedia.org/wiki/Regular_expression"
+            ], 
+            "flags": 0, 
+            "guid": "u6G&$9}&};", 
+            "note_model_uuid": "3f777d8e-7ce7-11e6-9a05-8c705a50cbf0", 
+            "tags": [
+                "line", 
+                "regex", 
+                "string"
+            ]
+        }
+    ]
+}
