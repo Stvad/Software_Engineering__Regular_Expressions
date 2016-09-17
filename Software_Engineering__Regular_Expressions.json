@@ -49,7 +49,7 @@
             "timer": 0
         }
     ], 
-    "desc": "Please see the <a href='https://ankiweb.net/shared/info/'>shared deck page</a> for more info.", 
+    "desc": "# Regular Expressions Anki deck. (CrowdAnki JSON)\n\nIncorporates some parts from shared decks provided on AnkiWeb.\n\nIn order to use this deck and to contribute back - please use the CrowdAnki plugin: https://github.com/Stvad/CrowdAnki\n\nYou're welcome to use and improve this deck!\n\nDeck Github repo: https://github.com/Stvad/Software_Engineering__Regular_Expressions", 
     "dyn": 0, 
     "extendNew": 10, 
     "extendRev": 50, 
